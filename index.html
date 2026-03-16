@@ -1,0 +1,451 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aarushi Bahri | Portfolio</title>
+    <meta
+      name="description"
+      content="VSCode-style portfolio for Aarushi Bahri, software engineer focused on backend systems, data engineering, and applied data science."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="titlebar">
+        <div class="window-controls" aria-hidden="true">
+          <span class="control red"></span>
+          <span class="control yellow"></span>
+          <span class="control green"></span>
+        </div>
+        <div class="titlebar-text">aarushi-bahri-portfolio</div>
+        <a
+          class="titlebar-link"
+          href="assets/Aarushi_Bahri_Resume.pdf"
+          target="_blank"
+          rel="noopener"
+        >
+          Resume.pdf
+        </a>
+      </header>
+
+      <div class="workspace">
+        <aside class="activity-bar" aria-label="Activity bar">
+          <button class="activity-icon is-active" type="button" aria-label="Explorer">⌘</button>
+          <a class="activity-icon" href="https://github.com/AarushiBahri" target="_blank" rel="noopener" aria-label="GitHub">◎</a>
+          <a class="activity-icon" href="https://linkedin.com/in/aarushibahri" target="_blank" rel="noopener" aria-label="LinkedIn">◌</a>
+          <a class="activity-icon" href="mailto:aarushibahri1010@gmail.com" aria-label="Email">✉</a>
+        </aside>
+
+        <aside class="sidebar">
+          <div class="sidebar-group">
+            <div class="sidebar-title">Explorer</div>
+            <div class="sidebar-subtitle">PORTFOLIO</div>
+            <nav class="file-tree">
+              <button class="file-item is-active" type="button" data-target="home">
+                <span class="file-icon html"></span>
+                <span>home.tsx</span>
+              </button>
+              <button class="file-item" type="button" data-target="about">
+                <span class="file-icon js"></span>
+                <span>about.js</span>
+              </button>
+              <button class="file-item" type="button" data-target="projects">
+                <span class="file-icon react"></span>
+                <span>projects.jsx</span>
+              </button>
+              <button class="file-item" type="button" data-target="experience">
+                <span class="file-icon json"></span>
+                <span>experience.json</span>
+              </button>
+              <button class="file-item" type="button" data-target="skills">
+                <span class="file-icon css"></span>
+                <span>skills.css</span>
+              </button>
+              <button class="file-item" type="button" data-target="contact">
+                <span class="file-icon md"></span>
+                <span>contact.md</span>
+              </button>
+            </nav>
+          </div>
+
+          <div class="sidebar-group">
+            <div class="sidebar-title">Quick Info</div>
+            <div class="sidebar-card">
+              <div class="sidebar-chip">Open to Roles</div>
+              <div class="sidebar-headline">Seeking opportunities in Software Engineering, Data Systems, and Machine Learning.</div>
+              <div class="sidebar-list">
+                <span>Software Engineering</span>
+                <span>Data Engineering</span>
+                <span>Machine Learning</span>
+                <span>Systems</span>
+                <span>Full Stack</span>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <main class="editor-shell">
+          <div class="tabs" role="tablist" aria-label="Portfolio sections">
+            <button class="tab is-active" type="button" data-target="home" role="tab">home.tsx</button>
+            <button class="tab" type="button" data-target="about" role="tab">about.js</button>
+            <button class="tab" type="button" data-target="projects" role="tab">projects.jsx</button>
+            <button class="tab" type="button" data-target="experience" role="tab">experience.json</button>
+            <button class="tab" type="button" data-target="skills" role="tab">skills.css</button>
+            <button class="tab" type="button" data-target="contact" role="tab">contact.md</button>
+          </div>
+
+          <div class="editor">
+            <section class="panel is-active" data-panel="home">
+              <div class="panel-grid hero-grid">
+                <div class="code-panel">
+                  <div class="code-header">
+                    <span>src/home.tsx</span>
+                    <span>UTF-8</span>
+                  </div>
+                  <div class="code-block">
+                    <div class="code-line"><span class="line-no">1</span><span class="code-key">const</span> profile <span class="code-key">=</span> <span class="code-brace">{</span></div>
+                    <div class="code-line"><span class="line-no">2</span>&nbsp;&nbsp;name: <span class="code-string">"Aarushi Bahri"</span>,</div>
+                    <div class="code-line"><span class="line-no">3</span>&nbsp;&nbsp;role: <span class="code-string">"Software Engineer"</span>,</div>
+                    <div class="code-line"><span class="line-no">4</span>&nbsp;&nbsp;currentStatus: <span class="code-string">"MS Data Science @ Stony Brook University"</span>,</div>
+                    <div class="code-line"><span class="line-no">5</span>&nbsp;&nbsp;focus: <span class="code-string">"Software Engineering + Data Systems + Machine Learning"</span>,</div>
+                    <div class="code-line"><span class="line-no">6</span>&nbsp;&nbsp;experience: <span class="code-string">"Ex-Software Engineer at Bank of America"</span>,</div>
+                    <div class="code-line"><span class="line-no">7</span>&nbsp;&nbsp;location: <span class="code-string">"New York"</span>,</div>
+                    <div class="code-line"><span class="line-no">8</span>&nbsp;&nbsp;status: <span class="code-string">"Seeking opportunities in Software Engineering, Data Systems, and Machine Learning."</span></div>
+                    <div class="code-line"><span class="line-no">9</span><span class="code-brace">}</span></div>
+                  </div>
+                </div>
+
+                <div class="hero-card">
+                  <div class="hero-tag">Currently in focus</div>
+                  <h1>Building scalable systems and intelligent products at the intersection of software engineering, data, and AI.</h1>
+                  <p>
+                    I’m a builder who enjoys turning ideas into real, working systems. I work across
+                    the stack from APIs and distributed systems to data pipelines and intelligent
+                    applications, and enjoy combining software engineering with data and AI to build
+                    impactful products.
+                  </p>
+                  <div class="hero-actions">
+                    <button class="action-btn primary" type="button" data-target="projects">Open Projects</button>
+                    <a class="action-btn" href="https://github.com/AarushiBahri" target="_blank" rel="noopener">GitHub</a>
+                    <a class="action-btn" href="assets/Aarushi_Bahri_Resume.pdf" target="_blank" rel="noopener">Resume</a>
+                  </div>
+                  <div class="hero-metrics">
+                    <div class="metric">
+                      <span class="metric-value">30%</span>
+                      <span class="metric-label">ETL processing speedup through pipeline automation and optimization</span>
+                    </div>
+                    <div class="metric">
+                      <span class="metric-value">50+</span>
+                      <span class="metric-label">Data provider integrations across upstream and downstream systems</span>
+                    </div>
+                    <div class="metric">
+                      <span class="metric-value">Full-Stack</span>
+                      <span class="metric-label">AI and data applications built with Python, FastAPI, React, and ML tools</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="panel" data-panel="about">
+              <div class="panel-heading">
+                <span class="breadcrumb">src / about.js</span>
+                <h2>About</h2>
+              </div>
+              <div class="info-grid">
+                <article class="info-card">
+                  <h3>Engineer mindset</h3>
+                  <p>
+                  Breaking complex challenges into scalable, reliable systems. I focus on practical solutions that balance performance, simplicity, and real-world impact.
+                  </p>
+                </article>
+                <article class="info-card">
+                  <h3>Current academic track</h3>
+                  <p>
+                    I’m pursuing a Master’s in Data Science at Stony Brook University, with focus areas
+                    in data engineering, analytics, and machine learning foundations.
+                  </p>
+                </article>
+                <article class="info-card">
+                  <h3>What I like building</h3>
+                  <p>
+                  Systems that combine software engineering, data, and machine learning—from backend services and data pipelines to intelligent applications that solve real-world problems.
+                  </p>
+                </article>
+              </div>
+            </section>
+
+            <section class="panel" data-panel="projects">
+              <div class="panel-heading">
+                <span class="breadcrumb">src / projects.jsx</span>
+                <h2>Projects</h2>
+              </div>
+              <div class="project-stack">
+                <article class="project-card">
+                  <div class="project-meta">React • FastAPI • Python • SQLAlchemy • SQLite • MediaPipe • LLM APIs</div>
+                  <h3>RareSignal AI</h3>
+                  <p>
+                    Full-stack rare-disease monitoring platform built during HackRare'26 at Harvard
+                    University, supporting both patient and clinician workflows across 22 disease
+                    conditions.
+                  </p>
+                  <ul>
+                    <li>Developed 5 multimodal symptom-input interfaces including gesture via MediaPipe, quick-tap, swipe, dial, and tap-rhythm.</li>
+                    <li>Improved accessibility and increased input modality coverage by 400% through multimodal interaction design.</li>
+                    <li>Built analysis pipelines for baseline deviation detection, trigger correlation, and disease-aware risk scoring across 7, 14, and 30-day windows.</li>
+                    <li>Created dashboards for symptom visualization, wearable insights, and automated clinician reports using LLM-generated summaries.</li>
+                  </ul>
+                  <div class="project-links">
+                    <a href="https://github.com/AarushiBahri/Hackrare-Project" target="_blank" rel="noopener">View Code</a>
+                  </div>
+                </article>
+
+                <article class="project-card">
+                  <div class="project-meta">Python • FastAPI • PostgreSQL • React • OpenAI APIs • Tavily</div>
+                  <h3>PathLearner</h3>
+                  <p>
+                    Full-stack AI learning platform that generates personalized study roadmaps from
+                    learner goals, background, and weekly study hours with a timeline-based interface
+                    for structured navigation and progress tracking.
+                  </p>
+                  <ul>
+                    <li>Implemented an adaptive quiz engine with confidence scoring, spaced reassessment, and skill-gap detection.</li>
+                    <li>Built full stateful persistence for 100% refresh-safe session recovery across learning flows.</li>
+                    <li>Engineered a hybrid recommendation pipeline using live web retrieval plus embedding-based semantic ranking across 4 resource formats and 3 difficulty levels.</li>
+                  </ul>
+                  <div class="project-links">
+                    <a href="https://github.com/AarushiBahri/PathLearner" target="_blank" rel="noopener">View Code</a>
+                  </div>
+                </article>
+
+                <article class="project-card">
+                  <div class="project-meta">Ethereum • Node.js • ReactJS • MySQL</div>
+                  <h3>Blockchain Voting System</h3>
+                  <p>
+                    Secure voting platform using Ethereum smart contracts for tamper-proof storage,
+                    verification, and transparent auditability.
+                  </p>
+                  <ul>
+                    <li>Implemented smart contracts for secure vote recording and verification.</li>
+                    <li>Integrated a React frontend with blockchain-backed workflows.</li>
+                    <li>Added MySQL logs for audit trails and activity tracking.</li>
+                  </ul>
+                  <div class="project-links">
+                    <a href="https://github.com/AarushiBahri/Blockchain-voting-system" target="_blank" rel="noopener">View Code</a>
+                  </div>
+                </article>
+
+                <article class="project-card">
+                  <div class="project-meta">HTML • CSS • MySQL • PHP • JavaScript</div>
+                  <h3>miRNA Mutation Database</h3>
+                  <p>
+                    Relational database project focused on mutation search, efficient query design, and
+                    a usable interface for scientific data exploration.
+                  </p>
+                  <ul>
+                    <li>Designed a schema optimized for mutation-centric queries.</li>
+                    <li>Used indexing strategies for fast retrieval.</li>
+                    <li>Built an interactive interface for search and visualization.</li>
+                  </ul>
+                  <div class="project-links">
+                    <a href="https://github.com/AarushiBahri/jcomp-biodb" target="_blank" rel="noopener">View Code</a>
+                  </div>
+                </article>
+
+                <article class="project-card">
+                  <div class="project-meta">HTML • CSS • Node.js • MongoDB • FlowXO</div>
+                  <h3>Health Assistant</h3>
+                  <p>
+                    Product-oriented medical assistance platform for pharmacy inventory, prescription
+                    delivery, and guided user support.
+                  </p>
+                  <ul>
+                    <li>Enabled real-time inventory visibility and consultation support.</li>
+                    <li>Added chatbot-based guidance flows.</li>
+                    <li>Designed for practical healthcare accessibility scenarios.</li>
+                  </ul>
+                  <div class="project-links">
+                    <a href="https://github.com/AarushiBahri/Dawa-Dukan" target="_blank" rel="noopener">View Code</a>
+                  </div>
+                </article>
+              </div>
+            </section>
+
+            <section class="panel" data-panel="experience">
+              <div class="panel-heading">
+                <span class="breadcrumb">data / experience.json</span>
+                <h2>Experience</h2>
+              </div>
+              <div class="json-card">
+                <div class="json-row"><span class="json-key">company</span><span class="json-value">"Bank of America"</span></div>
+                <div class="json-row"><span class="json-key">location</span><span class="json-value">"Hyderabad, India"</span></div>
+                <div class="json-row"><span class="json-key">latestRole</span><span class="json-value">"Officer Software Engineer I B"</span></div>
+                <div class="json-row"><span class="json-key">previousRole</span><span class="json-value">"Software Engineer I B"</span></div>
+                <div class="json-row"><span class="json-key">duration</span><span class="json-value">"Jul 2023 - Jul 2025"</span></div>
+                <div class="json-row"><span class="json-key">promotion</span><span class="json-value">"Feb 2025"</span></div>
+                <div class="json-row"><span class="json-key">summary</span><span class="json-value">"Built ETL, observability, dashboarding, and production workflow tooling for large-scale financial data systems."</span></div>
+              </div>
+              <div class="timeline-list">
+                <article class="timeline-card">
+                  <div class="project-meta">Officer Software Engineer I B • Feb 2025 - Jul 2025</div>
+                  <h3>Platform visibility and technical leadership</h3>
+                  <p>
+                    Led efforts to expand internal pipeline monitoring dashboards across the BLPT data
+                    platform, improving visibility into pipeline health and job execution across
+                    engineering teams.
+                  </p>
+                  <ul>
+                    <li>Automated ETL report generation and job scheduling using Python, Pandas, Jinja2 templating, Autosys JIL, cron, and Unix shell scripts.</li>
+                    <li>Eliminated 15-20 hours per week of manual ops work through workflow automation.</li>
+                    <li>Served as offshore technical lead, owning US-India engineering syncs and coordinating pipeline development across 5+ teams.</li>
+                    <li>Drove end-to-end issue resolution for workflows supporting 1000+ production jobs.</li>
+                  </ul>
+                </article>
+
+                <article class="timeline-card">
+                  <div class="project-meta">Software Engineer I B • Jul 2023 - Feb 2025</div>
+                  <h3>ETL engineering and observability</h3>
+                  <p>
+                    Built and maintained ETL pipelines ingesting data from 50+ upstream systems
+                    processing millions of daily records into Oracle analytics platforms supporting
+                    reporting and downstream workflows.
+                  </p>
+                  <ul>
+                    <li>Developed Angular and TypeScript operational dashboards with REST APIs for live throughput metrics, failure counts, and job timelines.</li>
+                    <li>Implemented SLA breach alerting and failure detection in Python, reducing mean-time-to-detect by 30% and improving observability.</li>
+                    <li>Partnered with 5+ engineering and analytics teams to debug ETL logic and optimize SQL queries.</li>
+                    <li>Improved pipeline delivery timelines by 40% through debugging, coordination, and query optimization.</li>
+                  </ul>
+                </article>
+              </div>
+            </section>
+
+            <section class="panel" data-panel="skills">
+              <div class="panel-heading">
+                <span class="breadcrumb">styles / skills.css</span>
+                <h2>Skills</h2>
+              </div>
+              <div class="skills-board">
+                <div class="skill-column">
+                  <h3>Languages</h3>
+                  <div class="tag-list">
+                    <span>Python</span><span>Java</span><span>C/C++</span><span>SQL</span><span>Shell</span>
+                  </div>
+                </div>
+                <div class="skill-column">
+                  <h3>Backend</h3>
+                  <div class="tag-list">
+                    <span>FastAPI</span><span>Node.js</span><span>REST APIs</span><span>Validation</span><span>System Design</span>
+                  </div>
+                </div>
+                <div class="skill-column">
+                  <h3>Data Engineering</h3>
+                  <div class="tag-list">
+                    <span>ETL</span><span>Batch Processing</span><span>Scheduling</span><span>Logging</span><span>Data Quality</span>
+                  </div>
+                </div>
+                <div class="skill-column">
+                  <h3>Databases</h3>
+                  <div class="tag-list">
+                    <span>Oracle</span><span>MySQL</span><span>MongoDB</span><span>Schema Design</span><span>Optimization</span>
+                  </div>
+                </div>
+                <div class="skill-column">
+                  <h3>Frontend</h3>
+                  <div class="tag-list">
+                    <span>React</span><span>ReactFlow</span><span>HTML</span><span>CSS</span><span>JavaScript</span>
+                  </div>
+                </div>
+                <div class="skill-column">
+                  <h3>Analytics and ML</h3>
+                  <div class="tag-list">
+                    <span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>PyTorch</span><span>Tableau</span>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="panel" data-panel="contact">
+              <div class="panel-heading">
+                <span class="breadcrumb">docs / contact.md</span>
+                <h2>Contact</h2>
+              </div>
+              <div class="markdown-card">
+                <p class="markdown-line"># Let&apos;s build something useful</p>
+                <p class="markdown-line">
+                  Open to internships in Software Engineering, Data Engineering, and Machine Learning.
+                </p>
+                <p class="markdown-line">## Reach out</p>
+                <div class="contact-actions">
+                  <a class="action-btn primary" href="mailto:aarushibahri1010@gmail.com">Email Me</a>
+                  <a class="action-btn" href="https://linkedin.com/in/aarushibahri" target="_blank" rel="noopener">LinkedIn</a>
+                  <button class="action-btn" id="copyEmailBtn" type="button">Copy Email</button>
+                </div>
+                <div class="contact-meta">
+                  <span>aarushibahri1010@gmail.com</span>
+                  <span>github.com/AarushiBahri</span>
+                  <span>New York, USA</span>
+                </div>
+              </div>
+            </section>
+          </div>
+
+          <footer class="terminal">
+            <div class="terminal-tabs">
+              <span class="terminal-tab is-active">TERMINAL</span>
+              <span class="terminal-tab">OUTPUT</span>
+              <span class="terminal-tab">PROBLEMS</span>
+            </div>
+            <div class="terminal-body">
+              <div class="terminal-line">
+                <span class="prompt">aarushi@portfolio</span>
+                <span class="command">npm run career-status</span>
+              </div>
+              <div class="terminal-line output">Seeking opportunities in Software Engineering, Data Systems, and Machine Learning.</div>
+              <div class="terminal-line">
+                <span class="prompt">aarushi@portfolio</span>
+                <span class="command">cat ./contact.md</span>
+              </div>
+              <div class="terminal-line output">Fastest reply path: aarushibahri1010@gmail.com</div>
+            </div>
+          </footer>
+        </main>
+      </div>
+    </div>
+
+    <script>
+      const controls = document.querySelectorAll("[data-target]");
+      const panels = document.querySelectorAll("[data-panel]");
+      const copyEmailBtn = document.getElementById("copyEmailBtn");
+
+      function activatePanel(target) {
+        controls.forEach((control) => {
+          control.classList.toggle("is-active", control.dataset.target === target);
+        });
+
+        panels.forEach((panel) => {
+          panel.classList.toggle("is-active", panel.dataset.panel === target);
+        });
+      }
+
+      controls.forEach((control) => {
+        control.addEventListener("click", () => {
+          activatePanel(control.dataset.target);
+        });
+      });
+
+      copyEmailBtn?.addEventListener("click", async () => {
+        try {
+          await navigator.clipboard.writeText("aarushibahri1010@gmail.com");
+          copyEmailBtn.textContent = "Copied";
+          setTimeout(() => {
+            copyEmailBtn.textContent = "Copy Email";
+          }, 1400);
+        } catch (error) {
+          copyEmailBtn.textContent = "Copy Failed";
+        }
+      });
+    </script>
+  </body>
+</html>
